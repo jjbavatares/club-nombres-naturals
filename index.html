@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111127">
+  <meta name="description" content="Vuit jocs de nombres naturals per a 1r d'ESO. Practica, explora i descarrega l'informe de la teva sessió.">
+  <title>El Club dels Nombres Naturals · 1r d'ESO</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="fonts.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=7">
+</head>
+<body>
+  <a class="skip" href="#main">Salta al contingut</a>
+  <header class="shell masthead"><a class="brand" href="#inici"><span class="badge">N</span> EL CLUB DELS NOMBRES NATURALS</a><span class="course">Nombres naturals · 1r d’ESO</span><button class="small" id="finish">Finalitza la sessió</button></header>
+  <div class="shell"><nav id="nav" aria-label="Activitats"></nav><div id="session-bar"></div><main id="main" tabindex="-1"></main><footer><span>El Club dels Nombres Naturals · Aprèn jugant</span><img src="assets/jjb-avatares.webp?v=4" alt="JJB Avatares con IA"><span>Les dades només existeixen durant aquesta sessió.</span></footer></div>
+  <dialog id="end-dialog"><h2>Abans de sortir…</h2><p>Les dades no es guarden. Descarrega l’informe en PDF si el vols enviar al professor o professora per correu o penjar-lo a Classroom.</p><p id="export-status"></p><div class="actions"><button class="button" id="dialog-pdf">Descarrega el PDF</button><button class="small" id="continue">Continua treballant</button><button class="danger" id="reset">Esborra la sessió i torna a l’inici</button></div></dialog>
+  <noscript>Activa JavaScript per fer les activitats. No es guarden dades ni s’envien respostes a cap servidor.</noscript>
+  <script src="vendor/pdf-lib.min.js"></script>
+  <script src="engine.js?v=4"></script>
+  <script src="app.js?v=7"></script>
+</body>
+</html>
